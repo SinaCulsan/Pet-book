@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet book</title>
+
+    <style>
+
+        #Header {
+            padding: 16px;
+            background-color: #800F0F;
+            margin-bottom: 16px;
+            height: 24px;
+            width: 375px;
+            position: fixed;
+
+
+        }
+
+        #Separador {
+            height: 70px;
+        }
+
+        .Icon {
+            margin: 0px;
+            float: left;
+            height: 24px;
+            padding: 0px;
+            margin-right: 16px;
+            
+        }
+
+        #Title h1:hover{
+            color: red;
+        }
+
+
+        #Title {
+
+            float: left;
+
+
+        }
+
+        #Title h1 {
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            height: 24px;
+
+        }
+
+
+        #Imagenplauto img {
+            width: 296px;
+            height: 296px;
+            vertical-align: center;
+
+        }
+
+        /*Ni idea*/
+
+        #Userprofile {
+            vertical-align: middle;
+            display: inline-block;
+
+        }
+
+        #Imagenuser {
+            vertical-align: middle;
+            display: inline-block;
+
+
+        }
+
+        #Imagenuser img {
+            width: 74px;
+            height: 74px;
+            border-radius: 80px;
+            margin-bottom: 16px;
+            margin-right: 16px;
+
+        }
+
+        #Textprofile {
+            vertical-align: middle;
+            display: inline-block;
+            margin-bottom: 16px;
+
+        }
+
+        #Titleuser {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            vertical-align: middle;
+            display: inline-block;
+
+
+        }
+
+        #Subtitle {
+            margin: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            vertical-align: middle;
+            display: inline-block;
+
+        }
+
+
+        #Iconcard {
+            float: right
+        }
+
+
+
+        .Card {
+            margin-bottom: 24px;
+            padding: 24px 32px 40px 24px;
+            background-color: white;
+            width: 296px;
+            margin: auto auto 24px auto;
+            border-radius: 8px;
+            box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+
+    
+
+        }
+
+        body {
+            padding: 0px;
+            margin: 0px;
+            background-color: #F2F4F8;
+
+        }
+
+        .tipografia {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            width: 296px;
+
+        }
+
+        /* Bottom menu */
+
+        #navbar1 li a{
+           
+          
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: grey;
+            padding: 16px;
+            text-decoration: none;
+            align-items: center;
+    
+
+        }
+
+    
+
+        #navbar1 li {
+            float: left;
+           display: flex;
+           
+            
+        }
+
+        #navbar1 {
+            margin: 0px;
+            list-style-type: none;
+            background-color: white;
+            height: 50px;
+            box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+            position: sticky;
+
+        }
+
+        #home {
+            height: 667px;
+            border-radius: 8px;
+        }
+
+
+
+    </style>
+</head>
+
+
+<body>
+
+<div id="home">    
+
+    <!--Header-->
+    <div id="Header">
+        <div class="Icon">
+            <img src="Icons/Icon.svg" alt="">
+        </div>
+
+        <div id="Title">
+            <h1>Petbook</h1>
+
+        </div>
+
+        <div style="float: right;">
+            <div id="Lupa" class="Icon">
+                <img src="Icons/Icon.svg" alt="">
+            </div>
+
+            <div class="Icon">
+                <img src="Icons/Icon.svg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <!--Separador-->
+
+    <div id="Separador">
+    
+    </div>
+
+    <!--Userprofile-->
+
+    <div class="Card">
+
+        <div id="Userprofile">
+
+            <div id="Imagenuser">
+                <img src="Imagenes/Plauto.png" alt="">
+            </div>
+
+
+            <div id="Textprofile">
+
+                <span id="Titleuser"> Plauto</span> <br>
+                <span id="Subtitle"></span>Fecha de publicación</span>
+
+            </div>
+
+            
+        </div>
+
+
+        <!--Imagen-->
+
+        <div id="Imagenplauto">
+            <img src="Imagenes/Plauto.png" alt="">
+        </div>
+
+        <div class="tipografia">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, accusamus voluptatum porro, corporis
+        </div>
+
+        <!--Iconos-->
+
+        <div id="Iconcard" class="Icon">
+            <img src="Icons/Heart.svg" alt="">
+        </div>
+
+
+        <div id="Iconcard" class="Icon">
+            <img src="Icons/Chat.svg" alt="">
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!--Card2-->
+
+
+    <div class="Card">
+
+    <div id="Userprofile">
+
+        <div id="Imagenuser">
+            <img src="Imagenes/Plauto.png" alt="">
+        </div>
+
+
+        <div id="Textprofile">
+
+            <span id="Titleuser"> Plauto</span> <br>
+            <span id="Subtitle"></span>Fecha de publicación</span>
+
+        </div>
+
+        
+    </div>
+
+
+    <!--Imagen-->
+
+    <div id="Imagenplauto">
+        <img src="Imagenes/Plauto.png" alt="">
+    </div>
+
+    <div class="tipografia">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, accusamus voluptatum porro, corporis
+    </div>
+
+    <!--Iconos-->
+
+    <div id="Iconcard" class="Icon">
+        <img src="Icons/Heart.svg" alt="">
+    </div>
+
+
+    <div id="Iconcard" class="Icon">
+        <img src="Icons/Chat.svg" alt="">
+    </div>
+
+    
+    </div>
+
+
+    <!--Bottom menu-->
+
+
+    <ul id="navbar1">
+    <li><a href="#">Inicio</a> </li>
+    <li><a href="Profile.html">Acerca de</a></li>
+    <li><a href="#">Galería</a></li>
+    <li><a href="#">Contacto</a></li>
+    </ul>
+
+</div>
+
+
+    
+
+
+</body>
+
+</html>
